@@ -14,10 +14,10 @@ export function Hero() {
       {/* Background Image & Layered Atmosphere */}
       <div className="absolute inset-0 z-0 bg-bg-dark">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-55 scale-105"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-85 scale-105"
           style={{ backgroundImage: "url('/images/hero/hero.jpg')" }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-bg-dark/85 via-bg-dark/55 to-bg-dark" />
+        <div className="absolute inset-0 bg-gradient-to-b from-bg-dark/85 via-bg-dark/30 to-bg-dark" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_35%,rgba(13,11,9,0.65)_100%)]" />
 
         {/* Decorative Steam */}
